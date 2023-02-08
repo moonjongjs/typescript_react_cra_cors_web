@@ -144,7 +144,7 @@ function SignUpComponent({회원, isConfirmModalFn, isTimer, introMainFn}: any )
         else{  
 
             axios({ // CORS API
-                url:'http://moonjong.dothome.co.kr/react_cra_5/member_select.php',
+                url:'https://moonjong.co.kr/react_cra_5/member_select.php',
                 method:'GET'
             })
             .then((res)=>{
@@ -312,7 +312,7 @@ function SignUpComponent({회원, isConfirmModalFn, isTimer, introMainFn}: any )
         else{
             
             axios({ // CORS API
-                url:'http://moonjong.dothome.co.kr/react_cra_5/member_select.php',
+                url:'https://moonjong.co.kr/react_cra_5/member_select.php',
                 method:'GET'
             })
             .then((res)=>{
@@ -956,7 +956,7 @@ function SignUpComponent({회원, isConfirmModalFn, isTimer, introMainFn}: any )
 
             // CORS REST API
             axios({
-                url:'http://moonjong.dothome.co.kr/react_cra_5/member_insert.php',
+                url:'https://moonjong.co.kr/react_cra_5/member_insert.php',
                 method:'POST',
                 data: newFormData
             })
