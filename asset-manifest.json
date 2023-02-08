@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/typescript_react_cra_cors_web/static/js/main.cc706082.js",
+    "index.html": "/typescript_react_cra_cors_web/index.html",
+    "main.cc706082.js.map": "/typescript_react_cra_cors_web/static/js/main.cc706082.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cc706082.js"
+  ]
+}
